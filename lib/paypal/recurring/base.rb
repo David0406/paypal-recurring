@@ -230,7 +230,8 @@ module PayPal
           :start_at,
           :outstanding,
           :ipn_url,
-          :email
+          :email,
+          :cycles
         )
 
         request.run(:update_profile, params)
